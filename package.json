@@ -31,7 +31,9 @@
     "dist/sizzle.min.map"
   ],
   "main": "dist/sizzle.js",
-  "dependencies": {},
+  "dependencies": {
+    "dompurify": "3.1.6"
+  },
   "devDependencies": {
     "benchmark": "2.1.4",
     "commitplease": "2.7.10",
@@ -81,5 +83,6 @@
       "Selector",
       "SetDocument"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }
